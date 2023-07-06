@@ -145,6 +145,27 @@
         
         font-size: 0.8rem;
     }
+    .home__footer{
+        height: 80px;
+        background-color: var(--colorRojo);
+        margin: 1% 10% 0;
+       border-top-left-radius: 30px;
+       border-top-right-radius: 30px;
+    }
+
+    .home__footer__nav--menu ul{ 
+        text-align: center;
+        padding-top: 30px;  
+    }
+    .home__footer__nav--menu ul li{
+       font-size: 10px;
+       display: inline;
+       padding: 3px;
+       border-right: 1px solid white;
+    }
+    .home__footer__nav--menu ul li:last-child{
+       border: none;
+    }
 }
 
 @media (min-width:1180px)    {
@@ -170,5 +191,7 @@
 
     .home__main__section__article:nth-child(3n){
         margin-right: 0;
-    }
+    }   
+   
+   
 }
